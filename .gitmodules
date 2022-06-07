@@ -1,0 +1,6 @@
+[submodule "kicad-ESP8266"]
+	path = hardware/kicad-ESP8266
+	url = https://github.com/jdunmire/kicad-ESP8266
+[submodule "hardware/prj-kicad-jlcpcb"]
+	path = hardware/prj-kicad-jlcpcb
+	url = git@github.com:TomKeddie/prj-kicad-jlcpcb.git

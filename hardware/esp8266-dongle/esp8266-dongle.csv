@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC
+"10uF,6.3V,X5R ","C1","Capacitor_SMD:C_0402_1005Metric","C15525"
+"100nF,16V,X7R ","C2","Capacitor_SMD:C_0402_1005Metric","C1525"
+"Conn_01x04","J1","esp8266-dongle:PinHeader_1x04_P2.54mm_Horizontal",""
+"3.3V/GND","JP1,JP2,JP5,JP6","Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm",""
+"RX/TX","JP3,JP4,JP7,JP8","Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm",""
+"10k","R1,R2,R5,R6","Resistor_SMD:R_0402_1005Metric","C25744"
+"0","R3,R4","Resistor_SMD:R_0402_1005Metric","C17168"
+"ESP-12F","U1","esp8266-dongle:ESP-12E_SMD","C82891"

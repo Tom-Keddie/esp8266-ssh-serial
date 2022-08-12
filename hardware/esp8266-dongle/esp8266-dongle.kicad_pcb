@@ -81,9 +81,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "gerber/")
     )
   )
 
@@ -439,10 +439,15 @@
       (net 5 "/PIN3") (pinfunction "Pin_3") (pintype "passive") (tstamp 3746099c-c7a0-4791-8aaa-63fe9d50856c))
     (pad "4" thru_hole oval (at 0 7.62 270) (size 3.6 1.8) (drill 1 (offset -0.9 0)) (layers *.Cu *.Mask)
       (net 6 "/PIN4") (pinfunction "Pin_4") (pintype "passive") (tstamp c46115dd-3730-40ea-b329-552a8e6e8588))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Horizontal.wrl"
+      (offset (xyz 0 -7.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1808,16 +1813,16 @@
   (segment (start 107.442 94.742) (end 108.458 94.742) (width 0.25) (layer "B.Cu") (net 13) (tstamp 50a77d7b-9740-4b74-9392-4f8ccae5d406))
   (segment (start 108.458 94.742) (end 109.093 95.377) (width 0.25) (layer "B.Cu") (net 13) (tstamp d5449c58-1a62-4630-9c38-09f4e9e0e5dd))
 
-  (zone (net 2) (net_name "GND") (layers F&B.Cu) (tstamp b235d501-a573-4203-a908-5545d23ef82f) (hatch edge 0.508)
+  (zone (net 2) (net_name "GND") (layers F&B.Cu) (tstamp d20e43b4-b322-4099-b724-0581c974c411) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254) (filled_areas_thickness no)
     (fill yes (thermal_gap 0.254) (thermal_bridge_width 0.254))
     (polygon
       (pts
         (xy 125.984 104.394)
-        (xy 105.918 104.394)
-        (xy 105.918 69.723)
-        (xy 125.984 69.723)
+        (xy 105.791 104.394)
+        (xy 105.791 77.724)
+        (xy 125.984 77.724)
       )
     )
     (filled_polygon
@@ -2237,9 +2242,9 @@
     (filled_polygon
       (layer "B.Cu")
       (pts
-        (xy 125.417621 70.124502)
-        (xy 125.464114 70.178158)
-        (xy 125.4755 70.2305)
+        (xy 125.417621 77.744002)
+        (xy 125.464114 77.797658)
+        (xy 125.4755 77.85)
         (xy 125.4755 103.7595)
         (xy 125.455498 103.827621)
         (xy 125.401842 103.874114)
@@ -3491,11 +3496,11 @@
         (xy 109.300908 81.116037)
         (xy 109.280231 81.273096)
         (xy 106.2995 81.273096)
-        (xy 106.2995 70.2305)
-        (xy 106.319502 70.162379)
-        (xy 106.373158 70.115886)
-        (xy 106.4255 70.1045)
-        (xy 125.3495 70.1045)
+        (xy 106.2995 77.85)
+        (xy 106.319502 77.781879)
+        (xy 106.373158 77.735386)
+        (xy 106.4255 77.724)
+        (xy 125.3495 77.724)
       )
     )
   )

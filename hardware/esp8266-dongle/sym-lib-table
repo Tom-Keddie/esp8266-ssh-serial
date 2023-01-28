@@ -1,6 +1,6 @@
 (sym_lib_table
   (lib (name "esp8266-dongle")(type "KiCad")(uri "${KIPRJMOD}/esp8266-dongle.kicad_sym")(options "")(descr ""))
-  (lib (name "ESP8266")(type "Legacy")(uri "/home/tomk/git/Tom-Keddie/esp8266-ssh-serial/hardware/kicad-ESP8266/ESP8266.lib")(options "")(descr ""))
-  (lib (name "jlcpcb-basic-capacitor-0402")(type "KiCad")(uri "/home/tomk/git/Tom-Keddie/esp8266-ssh-serial/hardware/prj-kicad-jlcpcb/libraries/jlcpcb-basic-capacitor-0402.kicad_sym")(options "")(descr ""))
-  (lib (name "jlcpcb-basic-resistor-0402")(type "KiCad")(uri "/home/tomk/git/Tom-Keddie/esp8266-ssh-serial/hardware/prj-kicad-jlcpcb/libraries/jlcpcb-basic-resistor-0402.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP8266")(type "Legacy")(uri "${KIPRJMOD}/../kicad-ESP8266/ESP8266.lib")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-capacitor-0402")(type "KiCad")(uri "${KIPRJMOD}/../prj-kicad-jlcpcb/libraries/jlcpcb-basic-capacitor-0402.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-resistor-0402")(type "KiCad")(uri "${KIPRJMOD}/../prj-kicad-jlcpcb/libraries/jlcpcb-basic-resistor-0402.kicad_sym")(options "")(descr ""))
 )

@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.5-a6ca702e91~116~ubuntu20.04.1"
+      "Version": "6.0.10-86aedd382b~118~ubuntu22.04.1"
     },
-    "CreationDate": "2022-06-07T16:18:29-07:00"
+    "CreationDate": "2023-01-28T15:28:02-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -15,7 +15,7 @@
     },
     "Size": {
       "X": 19.785,
-      "Y": 34.39
+      "Y": 39.39
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "esp8266-dongle-F_Cu.gbr",
+      "Path": "esp8266-dongle-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "esp8266-dongle-B_Cu.gbr",
+      "Path": "esp8266-dongle-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "esp8266-dongle-F_Paste.gbr",
+      "Path": "esp8266-dongle-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "esp8266-dongle-B_Paste.gbr",
+      "Path": "esp8266-dongle-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "esp8266-dongle-F_Silkscreen.gbr",
+      "Path": "esp8266-dongle-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "esp8266-dongle-B_Silkscreen.gbr",
+      "Path": "esp8266-dongle-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "esp8266-dongle-F_Mask.gbr",
+      "Path": "esp8266-dongle-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "esp8266-dongle-B_Mask.gbr",
+      "Path": "esp8266-dongle-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "esp8266-dongle-Edge_Cuts.gbr",
+      "Path": "esp8266-dongle-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

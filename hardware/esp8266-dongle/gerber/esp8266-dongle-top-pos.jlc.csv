@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C1","10uF,6.3V,X5R ","C_0402_1005Metric",107.215000,-96.675000,-90.000000,top
 "C2","100nF,16V,X7R ","C_0402_1005Metric",108.485000,-96.675000,-90.000000,top
 "J1","Conn_01x04","PinHeader_1x04_P2.54mm_Horizontal",120.000000,-107.500000,-90.000000,top

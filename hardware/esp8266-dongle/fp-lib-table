@@ -1,4 +1,6 @@
 (fp_lib_table
-  (lib (name "ESP8266")(type "KiCad")(uri "/home/tomk/git/Tom-Keddie/esp8266-ssh-serial/hardware/kicad-ESP8266/ESP8266.pretty")(options "")(descr ""))
+  (lib (name "ESP8266")(type "KiCad")(uri "${KIPRJMOD}/../kicad-ESP8266/ESP8266.pretty")(options "")(descr ""))
   (lib (name "esp8266-dongle")(type "KiCad")(uri "${KIPRJMOD}/esp8266-dongle.pretty")(options "")(descr ""))
+  (lib (name "TestPoint")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/TestPoint.pretty")(options "")(descr ""))
+  (lib (name "Resistor_SMD")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/Resistor_SMD.pretty")(options "")(descr ""))
 )
